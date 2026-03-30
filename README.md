@@ -30,3 +30,10 @@
 | [IConfiguration](DotNet/IConfiguration.md) | Configuration sources, options pattern, custom providers |
 | [Templates](DotNet/Templates.md) | Creating and publishing custom dotnet new templates |
 | [WPF AppHost](DotNet/WPF-AppHost.md) | WPF with Generic Host integration |
+
+## OPC UA
+
+| File | Topics |
+|------|--------|
+| [Overview](OpcUa/overview.md) | Goals, address space (node model), read/write, subscriptions, method calls, limitations |
+| [.NET — OPC Foundation SDK](OpcUa/dotnet-opc-foundation.md) | NuGet packages, client connection, read/write, browse, subscriptions, method calls, server basics |
