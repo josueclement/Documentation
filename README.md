@@ -31,6 +31,22 @@
 | [Templates](DotNet/Templates.md) | Creating and publishing custom dotnet new templates |
 | [WPF AppHost](DotNet/WPF-AppHost.md) | WPF with Generic Host integration |
 
+## Docker
+
+| File | Topics |
+|------|--------|
+| [Overview](Docker/overview.md) | Concepts: images vs containers vs layers, registries, client/daemon model, lifecycle states |
+| [Installation](Docker/installation.md) | Install on Arch + Debian/Ubuntu, docker group, enable service, verify, uninstall |
+| [Images](Docker/images.md) | pull, images, inspect, tag, rmi, search, save/load, image naming |
+| [Containers](Docker/containers.md) | run, ps, start/stop/restart, exec, logs, rm, flags, restart policies, practical examples |
+| [Dockerfile](Docker/dockerfile.md) | Instructions, .dockerignore, layer caching, ARG vs ENV, multi-stage builds (incl. .NET example) |
+| [Volumes](Docker/volumes.md) | Named volumes, bind mounts, tmpfs, backup pattern, practical examples |
+| [Networking](Docker/networking.md) | Default bridge, user-defined networks, host/none modes, port publishing, container DNS |
+| [Compose](Docker/compose.md) | docker compose v2, compose.yaml, multi-service example, .env, overrides, profiles |
+| [Registries](Docker/registries.md) | Docker Hub, GHCR, private registries, login, push, image naming, self-hosted registry |
+| [Cleanup](Docker/cleanup.md) | system df, system prune, targeted prunes, log size control, scheduled cleanup |
+| [Security & Rootless](Docker/security-rootless.md) | docker-group caveat, rootless setup, unprivileged containers, capabilities, image trust |
+
 ## OPC UA
 
 | File | Topics |
